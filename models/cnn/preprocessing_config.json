@@ -1,0 +1,32 @@
+{
+  "seed": 42,
+  "labels": [
+    "angry",
+    "calm",
+    "disgust",
+    "fearful",
+    "happy",
+    "neutral",
+    "sad",
+    "surprised"
+  ],
+  "spectrogram_preprocessing": {
+    "sample_rate": 22050,
+    "duration_seconds": 4.0,
+    "trim_top_db": 30,
+    "n_fft": 1024,
+    "hop_length": 256,
+    "n_mels": 64,
+    "fmax_hz": 8000,
+    "normalization": "per_recording_zscore"
+  },
+  "input_shape": [
+    64,
+    345,
+    1
+  ],
+  "batch_size": 16,
+  "requested_epochs_this_run": 1,
+  "split_source": "C:\\Users\\Zishan\\Documents\\ChatGPT\\CLI LIVE VISUALIZATION\\speech-emotion-wellbeing\\results\\classical\\split_assignments.csv",
+  "completed_epochs": 6
+}

@@ -1,0 +1,14 @@
+{
+  "audio_path": "C:\\Users\\Zishan\\Documents\\ChatGPT\\CLI LIVE VISUALIZATION\\speech-emotion-wellbeing\\data\\raw\\ravdess\\Actor_01\\03-01-01-01-01-01-01.wav",
+  "predicted_emotion": "calm",
+  "probabilities": {
+    "angry": 0.0950138121843338,
+    "calm": 0.1605118066072464,
+    "disgust": 0.1434028148651123,
+    "fearful": 0.11207055300474167,
+    "happy": 0.11258108168840408,
+    "neutral": 0.09209274500608444,
+    "sad": 0.12714765965938568,
+    "surprised": 0.15717953443527222
+  }
+}

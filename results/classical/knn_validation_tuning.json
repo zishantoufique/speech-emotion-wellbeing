@@ -1,0 +1,54 @@
+[
+  {
+    "parameters": {
+      "model__n_neighbors": 3,
+      "model__weights": "distance"
+    },
+    "accuracy": 0.3125,
+    "precision_weighted": 0.3142252355487649,
+    "recall_weighted": 0.3125,
+    "f1_weighted": 0.3011472028382528,
+    "precision_macro": 0.3050028249936338,
+    "recall_macro": 0.30859375,
+    "f1_macro": 0.29482550266086194
+  },
+  {
+    "parameters": {
+      "model__n_neighbors": 5,
+      "model__weights": "distance"
+    },
+    "accuracy": 0.3375,
+    "precision_weighted": 0.33166846396002403,
+    "recall_weighted": 0.3375,
+    "f1_weighted": 0.3251272245981716,
+    "precision_macro": 0.32656418496252254,
+    "recall_macro": 0.33203125,
+    "f1_macro": 0.3204317730607859
+  },
+  {
+    "parameters": {
+      "model__n_neighbors": 7,
+      "model__weights": "distance"
+    },
+    "accuracy": 0.30416666666666664,
+    "precision_weighted": 0.29341670264943914,
+    "recall_weighted": 0.30416666666666664,
+    "f1_weighted": 0.28859922355817264,
+    "precision_macro": 0.2828906587338492,
+    "recall_macro": 0.29296875,
+    "f1_macro": 0.27837427208578686
+  },
+  {
+    "parameters": {
+      "model__n_neighbors": 5,
+      "model__weights": "uniform"
+    },
+    "accuracy": 0.3333333333333333,
+    "precision_weighted": 0.3357868423511821,
+    "recall_weighted": 0.3333333333333333,
+    "f1_weighted": 0.31698086426102334,
+    "precision_macro": 0.32730016470423323,
+    "recall_macro": 0.3203125,
+    "f1_macro": 0.306784944860094
+  }
+]

@@ -1,0 +1,11 @@
+# Separate, CPU-focused Phase 3 environment for Windows + Python 3.13.
+# It intentionally does not modify the Phase 1/2 virtual environment.
+tensorflow>=2.21,<2.22
+numpy>=1.26,<2.2
+librosa>=0.11,<0.12
+soundfile>=0.13,<0.14
+pandas>=2.2,<3
+scikit-learn>=1.6,<2
+matplotlib>=3.10,<4
+tqdm>=4.67,<5
+streamlit>=1.42,<2

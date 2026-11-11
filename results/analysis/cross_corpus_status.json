@@ -1,0 +1,7 @@
+{
+  "status": "not performed",
+  "reason": "No separately labelled compatible external emotion-speech corpus is present in data/external; the project contains only RAVDESS.",
+  "ordinary_random_evaluation": "not performed intentionally because it would mix speakers across partitions and inflate apparent generalisation.",
+  "speaker_independent_evaluation": "completed using actors 01, 09, 17, and 19 as an untouched common test partition.",
+  "external_data_directory_exists": false
+}
